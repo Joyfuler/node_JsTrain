@@ -1,0 +1,22 @@
+{
+  "name": "defaultversion",
+  "version": "1.0.1",
+  "description": "just for training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joyfuler",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "fs": "^0.0.1-security",
+    "jquery": "^3.7.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

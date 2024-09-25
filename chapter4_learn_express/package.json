@@ -1,0 +1,17 @@
+{
+  "name": "chapter4_learn_express",
+  "version": "1.0.0",
+  "description": "for node_js training",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "author": "Joyfuler",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

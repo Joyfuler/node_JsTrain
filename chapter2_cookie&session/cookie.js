@@ -2,7 +2,7 @@ const http = require('http');
 
 http.createServer((req, res)=>{
     console.log(req.url, req.headers.cookie);
-    res.writeHead(200, {'Set-Cookie': 'mycookie=test'}); // test 쿠키를 부여
+    res.writeHead(200, {'Set-Cookie': 'mycookie=jangcookie'}); // test 쿠키를 부여
     res.end('Hello, Cookie!');
 
 })
